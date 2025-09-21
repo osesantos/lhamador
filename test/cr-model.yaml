@@ -1,0 +1,9 @@
+apiVersion: ollama.io/v1alpha1
+kind: Model
+metadata:
+  name: gemma-tiny
+spec:
+  name: "gemma:tiny"
+  source: "registry.ollama.ai"
+  preload: true
+
